@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(253, 253, 253);
+    
+}
+:root {
+    --bg-principal: #000000;
+    --bg-secundario: #4B4453;
+    --secundaria: #f32b73;
+}
