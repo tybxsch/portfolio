@@ -5,8 +5,9 @@
 }
 html, body {
     width: 100%;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
     color: rgb(253, 253, 253);
+    font-size: 21px;
     
 }
 :root {

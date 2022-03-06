@@ -28,6 +28,29 @@ a {
     font-family: 'VT323', monospace;
     text-decoration: none;
 }
+.inicio:hover {
+    color: var(--secundaria);
+    transition-duration: 0.40s;
+}
+.anav:hover {
+    color: var(--secundaria);
+    transition-duration: 0.40s;
+    transition-timing-function: ease-out;
+    font-size: 30px;
+}
+.imgicon:hover {
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+h2:hover {
+    color: #ffffff;
+    transition-duration: 0.40s;
+}
+.nome:hover{
+    font-size: 70px;
+    color: var(--secundaria);
+    transition-duration: 0.60s;
+}
 nav {
     display: flex;
     width: 50%;
@@ -88,6 +111,7 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     width: 50%;
+    text-align: justify;
 }
 .hobiie {
     padding-top: 3%;
@@ -186,4 +210,20 @@ footer {
 }
 .gmail {
     padding-right: 5%;
+}
+.insta:hover {
+    transform: scale(1.2);
+    transition-duration: 0.40s;
+}
+.github:hover {
+    transform: scale(1.2);
+    transition-duration: 0.40s;
+}
+.linkedin:hover {
+    transform: scale(1.2);
+    transition-duration: 0.40s;
+}
+.gmail:hover {
+    transform: scale(1.2);
+    transition-duration: 0.40s;
 }
